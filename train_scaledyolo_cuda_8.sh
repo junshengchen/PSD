@@ -1,0 +1,4 @@
+# Scaled-YOLOv4
+cd /fs/home/k207198/h322330/ccc/PSD/Scaled-YOLOv4; conda activate PSD;python -m torch.distributed.launch --nproc_per_node 8 train.py --batch-size 56 --img 640 640 --data /fs/home/k207198/h322330/ccc/data/mydata.yaml   --cfg yolov4-p5.yaml --weights 'yolov4-p5.pt' --sync-bn --device=0,1,2,3,4,5,6,7  --epochs 100
+cd /fs/home/k207198/h322330/ccc/PSD/Scaled-YOLOv4; conda activate PSD;python -m torch.distributed.launch --nproc_per_node 8 train.py --batch-size 56 --img 640 640 --data /fs/home/k207198/h322330/ccc/data/mydata.yaml   --cfg yolov4-p6.yaml --weights 'yolov4-p6.pt' --sync-bn --device=0,1,2,3,4,5,6,7  --epochs 100
+cd /fs/home/k207198/h322330/ccc/PSD/Scaled-YOLOv4; conda activate PSD;python -m torch.distributed.launch --nproc_per_node 8 train.py --batch-size 56 --img 640 640 --data /fs/home/k207198/h322330/ccc/data/mydata.yaml   --cfg yolov4-p7.yaml --weights 'yolov4-p7.pt' --sync-bn --device=0,1,2,3,4,5,6,7  --epochs 100
