@@ -1,0 +1,9 @@
+train: "/fs/home/k207198/h322330/ccc/ultralytics-main/mydata/lis/images/train"
+val: "/fs/home/k207198/h322330/ccc/ultralytics-main/mydata/lis/images/val"
+nc: 4
+is_coco: False
+names:
+  0: pear
+  1: bruise
+  2: twig
+  3: rot
