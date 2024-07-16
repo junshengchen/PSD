@@ -17,7 +17,7 @@ Sample images are also provided in `datasets/Data_aug/`, one can use `Data_augme
 ### 2.3 (Optiona2) Dataset Analysis
 To analysis the dataset, we can run: `python commons/dataset_analysis.py`.
 ### 2.4 (Optiona3) Prepare your Own Dataset
-Label the dataset using Labelme[链接](https://github.com/labelmeai/labelme).
+Label the dataset using [Labelme](https://github.com/labelmeai/labelme).
 Then transfer the dataset using the above two steps to convert the dataset to YOLO or COCO formats.
 ## 3. Training and Testing
 Download the pretrained models from here and unzip to corresponding folders. For example, you need to put the yolov3.pt, yolov3-spp.pt and yolov3-tiny.pt under the YOLOV3/ folder.
