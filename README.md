@@ -8,17 +8,16 @@ Install requirements: `pip install -r requirements.txt`
 
 ## 2. Preparing the Dataset
 ### 2.1 Dataset Preparation
-<span style="background-color: yellow;">这是有黄色背景的文字。</span>
 Download the data (https://doi.org/10.5281/zenodo.7535814) and unzip to the datasets/ folder.
 Run the script to convert the labeled data into YOLO format: `python commons/json2yolov.py`(The code includes dataset partitioning, you just need to change the paths)
 (Optional) Run the script to convert the labeled data into VOC format: `python commons/json2coco.py `
 ### 2.2 (Optional) Data Augmentation
-To augment the trianing images, one can refer to Data_augmentation/Data_aug.py
-Sample images are also provided in datasets/Data_aug/, one can use Data_augmentation/Data_demo_aug.py to generate examples.
+To augment the trianing images, one can refer to `Data_augmentation/Data_aug.py`
+Sample images are also provided in `datasets/Data_aug/`, one can use `Data_augmentation/Data_demo_aug.py `to generate examples.
 ### 2.3 (Optiona2) Dataset Analysis
-To analysis the dataset, we can run: python commons/dataset_analysis.py.
+To analysis the dataset, we can run: `python commons/dataset_analysis.py`.
 ### 2.4 (Optiona3) Prepare your Own Dataset
-Label the dataset using Labelme.
+Label the dataset using Labelme[链接](https://github.com/labelmeai/labelme).
 Then transfer the dataset using the above two steps to convert the dataset to YOLO or COCO formats.
 ## 3. Training and Testing
 Download the pretrained models from here and unzip to corresponding folders. For example, you need to put the yolov3.pt, yolov3-spp.pt and yolov3-tiny.pt under the YOLOV3/ folder.
