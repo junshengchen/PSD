@@ -8,7 +8,7 @@ Install requirements: `pip install -r requirements.txt`
 
 ## 2. Preparing the Dataset
 ### 2.1 Dataset Preparation
-Download the dataset from [here](https://drive.google.com/drive/folders/1T9Pv6YMvOY6fOWoim21yEpgFuNg7dful?usp=drive_link), and place it in the datasets/ folder. 
+Download the dataset from [here](https://drive.google.com/drive/folders/1T9Pv6YMvOY6fOWoim21yEpgFuNg7dful?usp=drive_link), and place it in the datasets/ folder.   
 Run the script to convert the labeled data into YOLO format: `python commons/json2yolov.py`(The code includes dataset partitioning, you just need to change the paths)  
 (Optional) Run the script to convert the labeled data into VOC format: `python commons/json2coco.py `  
 ### 2.2 (Optional) Data Augmentation
