@@ -20,8 +20,8 @@ To analysis the dataset, we can run: `python commons/dataset_analysis.py`.
 Label the dataset using [Labelme](https://github.com/labelmeai/labelme).  
 Then transfer the dataset using the above two steps to convert the dataset to YOLO or COCO formats.  
 ## 3. Training and Testing
-Download the pretrained models from here and unzip to corresponding folders. For example, you need to put the yolov3.pt, yolov3-spp.pt and yolov3-tiny.pt under the YOLOV3/ folder.  
-We trained the models for 5 replications on 5 GPUs, readers are recommended to look at the train_cudax.sh files. For instance, to run the 0st data folder, we can run: bash -i train_cuda0.sh.  
-To test the models, we can run: bash -i test0.sh.  
+Download the pretrained models from [here](https://drive.google.com/drive/folders/1DcrluarBcoHd0GLfDZXWvrIl0Dxzmy8V?usp=drive_link). and unzip to corresponding folders. For example, you need to put the yolov5n.pt, yolov5s.pt, yolov5m.pt, yolov5l.pt and yolov5x.pt under the YOLOv5/ folder.  
+We trained the models  on 8 GPUs, readers are recommended to look at the train_cuda_8.sh files. For instance, to run the 0st data folder, we can run:  `bash -i train_cuda_8.sh.  `   
+To test the models, we can run: ` bash -i test.sh.   `  
 ## 4. Performance
 The YOLO algorithms[1-6] used for our experiments are not maintained by us, please give credit to the authors of the YOLO algorithms[1-6].  
