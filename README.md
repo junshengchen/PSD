@@ -25,6 +25,8 @@ Pear surface defect detection is one of the major challenges in pear production.
 * To test the models, we can run: ` bash -i test.sh.   `  
 ## 4. Performance
 The YOLO algorithms[1-7] used for our experiments are not maintained by us, please give credit to the authors of the YOLO algorithms[1-7].   
+## Video Demos
+The video demos can be accessed at [Video Demos](https://drive.google.com/file/d/1Vnq8XsbiG-iMOnVQS6wEAh-rO5Lu_Tjh/view?usp=drive_link)
 ## Reference
 * [1-1] YOLOv5:None.  
 * [1-2] YOLOv5:Implementation: https://github.com/ultralytics/yolov5.  
